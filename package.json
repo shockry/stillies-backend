@@ -1,0 +1,25 @@
+{
+  "name": "stillies-api",
+  "version": "1.0.0",
+  "description": "API for Stillies clients",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webSockets",
+    "movies"
+  ],
+  "author": "Ahmed Shokry <shokry92@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "imdb-api": "^4.0.3",
+    "movie-trailer": "^2.0.6",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0"
+  }
+}
