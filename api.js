@@ -4,6 +4,11 @@ const movieTrailer = require("movie-trailer");
 
 const app = express();
 
+if (process.env.NODE_ENV !== "production") {
+  const cors = require("cors");
+  app.use(cors());
+}
+
 app.get("/search/:name", async (req, res) => {
   try {
     const movieDetails = await imdb.get(

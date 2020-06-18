@@ -1,10 +1,8 @@
 const expressApp = require("./api").app;
 const socket = require("./socket");
 
-if (process.env.NODE_ENV === "development") {
+if (process.env.NODE_ENV !== "production") {
   require("dotenv").config();
-  const cors = require("cors");
-  expressApp.use(cors());
 }
 
 const port = process.env.PORT || 4000;
