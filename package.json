@@ -13,7 +13,7 @@
   "author": "Ahmed Shokry <shokry92@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "imdb-api": "^4.0.3",
     "movie-trailer": "^2.0.6",
     "secure-random-string": "^1.1.3",
